@@ -1,0 +1,25 @@
+lockfileVersion: 5.4
+
+patchedDependencies:
+  '@dagrejs/graphlib@2.1.11':
+    hash: igxxnrnjk5nd7eekccu4vw7bua
+    path: patches/@dagrejs__graphlib@2.1.11.patch
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/a:
+    specifiers:
+      '@dagrejs/graphlib': 2.1.11
+    dependencies:
+      '@dagrejs/graphlib': 2.1.11_igxxnrnjk5nd7eekccu4vw7bua
+
+packages:
+
+  /@dagrejs/graphlib/2.1.11_igxxnrnjk5nd7eekccu4vw7bua:
+    resolution: {integrity: sha512-lMVRFPq9RLIIPUNml8EQ6oN8gA/Ei/+/eZixS69FdCb8i5uBOF/c2lr6gz97JGfQmwETpxGPt3FU28pbO4r10g==}
+    engines: {node: '>17.0.0'}
+    dev: false
+    patched: true

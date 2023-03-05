@@ -1,0 +1,12 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@dagrejs/graphlib": "2.1.11"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
